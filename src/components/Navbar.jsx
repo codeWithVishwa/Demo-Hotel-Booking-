@@ -36,7 +36,7 @@ export default function Navbar() {
   )
 
   return (
-    <header className="lux-glass sticky top-0 z-50">
+      <header className="lux-navbar-glass sticky top-0 z-50">
       <div className="lux-container flex items-center justify-between py-3">
         <NavLink to="/" className="flex items-center gap-2">
           <div className="lux-brand-badge">

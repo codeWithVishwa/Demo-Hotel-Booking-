@@ -118,18 +118,24 @@ export default function Home() {
             </Reveal>
 
             <Reveal delayMs={220}>
-              <div className="mt-8 grid gap-3 sm:grid-cols-3">
-                <div className="lux-panel p-4">
-                  <div className="text-xs text-[color:var(--muted-2)]">Check-in</div>
-                  <div className="mt-1 text-base font-semibold">2:00 PM</div>
+              <div className="mt-7 grid grid-cols-2 gap-2 sm:mt-8 sm:grid-cols-3 sm:gap-3">
+                <div className="lux-panel p-3 sm:p-4">
+                  <div className="text-[11px] leading-tight text-[color:var(--muted-2)]">Check-in</div>
+                  <div className="mt-0.5 text-sm font-semibold leading-tight sm:mt-1 sm:text-base">
+                    2:00 PM
+                  </div>
                 </div>
-                <div className="lux-panel p-4">
-                  <div className="text-xs text-[color:var(--muted-2)]">Check-out</div>
-                  <div className="mt-1 text-base font-semibold">11:00 AM</div>
+                <div className="lux-panel p-3 sm:p-4">
+                  <div className="text-[11px] leading-tight text-[color:var(--muted-2)]">Check-out</div>
+                  <div className="mt-0.5 text-sm font-semibold leading-tight sm:mt-1 sm:text-base">
+                    11:00 AM
+                  </div>
                 </div>
-                <div className="lux-panel p-4">
-                  <div className="text-xs text-[color:var(--muted-2)]">Support</div>
-                  <div className="mt-1 text-base font-semibold">24/7 Reception</div>
+                <div className="lux-panel col-span-2 p-3 sm:col-span-1 sm:p-4">
+                  <div className="text-[11px] leading-tight text-[color:var(--muted-2)]">Support</div>
+                  <div className="mt-0.5 text-sm font-semibold leading-tight sm:mt-1 sm:text-base">
+                    24/7 Reception
+                  </div>
                 </div>
               </div>
             </Reveal>
